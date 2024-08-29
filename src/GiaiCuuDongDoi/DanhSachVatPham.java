@@ -26,11 +26,11 @@ public class DanhSachVatPham {
         honDaKichNo.nhap();
         this.arr.add(honDaKichNo);
 
-        CayRiuPhepThuat cayRiuPhepThuat = new CayRiuPhepThuat();
+        VatPham cayRiuPhepThuat = new CayRiuPhepThuat();
         cayRiuPhepThuat.nhap();
         this.arr.add(cayRiuPhepThuat);
 
-        CayGayChienThan cayGayChienThan = new CayGayChienThan();
+        VatPham cayGayChienThan = new CayGayChienThan();
         cayGayChienThan.nhap();
         this.arr.add(cayGayChienThan);
     }
